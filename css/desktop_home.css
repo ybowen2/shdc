@@ -1,0 +1,47 @@
+
+@media only screen 
+    and (min-device-width : 998px) 
+    {
+    	#myCarousel {
+    		visibility: hidden;
+    	}
+    	.buttonvm{
+    		border-radius: 0%;
+    	}
+    	.bgimage {
+    		visibility: visible;
+    		opacity: 1.0;
+    		top: 70px;
+    		max-width: 100%;
+    	}
+    	.homeaction{
+    		bottom: 2%;
+
+    	}
+    	h1 {
+    		font-size: 5em;
+    		text-transform: lowercase;
+    	}
+    	#home_title_mobile {
+    		visibility: hidden;
+    	}
+    	#home_title_desktop {
+    		visibility: visible;
+    		font-size: 2.2em;
+    		left: 70px;
+    		
+    	}
+    	#vagmocircle{
+    		top: 0px;
+    		padding-top: 15px;
+    		visibility: hidden;
+    	}
+    	.navbarholder{
+    		right: 15px;
+    		font-size: 1em;
+    	}
+        .dropdown:hover .dropdown-menu {
+display: block;
+}
+
+    }
