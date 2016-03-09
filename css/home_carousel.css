@@ -4,5 +4,6 @@
       overflow: hidden;
       height:100%;
       padding-top: 70px;
-      margin: auto;
+ 	margin-bottom: 0px;
+ 	max-height: 700px;    
 }
