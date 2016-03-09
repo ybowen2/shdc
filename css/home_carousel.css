@@ -2,7 +2,7 @@
   .carousel-inner > .item > a > img {
       width: 100%;
       overflow: hidden;
-      height:auto;
+      height:100%;
       padding-top: 70px;
       margin: auto;
 }
