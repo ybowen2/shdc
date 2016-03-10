@@ -22,6 +22,8 @@ visibility: hidden;
             max-height: 550px;
     	}
     	.homeaction{
+            height: 20%;
+            width: 20%;
     	
 
     	}.carousel-inner > .item > img,

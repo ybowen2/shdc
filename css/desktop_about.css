@@ -25,16 +25,16 @@
             text-transform: uppercase;
         }
 
-        h2{
+        .about_content h2{
             font-size: 2.5em;
             color: #000;
-             margin-left:  10%;
+            margin-left:  10%;
             margin-right: 10%;
             text-align: center;
             text-transform: uppercase;
             
         }
-        p{
+        .about_content p{
             
             color: #191919;
             padding-left:  10%;

@@ -52,12 +52,11 @@ hr {
 	padding-left: 0;
 }
 
-.buttonvm {
+.buttonvm, .gallerybutton {
+font-family: 'Roboto Condensed';
   color: #fff;
   font-size: 1.3em;
-  font-family: 'Lato';
   font-weight: 300;
-  border-radius: 15%;
   background-color: #000;
   opacity: 1.0;
   border-color: #eee;
@@ -67,7 +66,7 @@ hr {
 
 }
 
-.buttonvm:hover,
+.buttonvm:hover, .gallerybutton:hover, .gallerybutton.hover,
 .buttonvm.hover {
   background-color: #000;
   opacity: 0.7;
@@ -75,12 +74,20 @@ hr {
   
 }
 
-.buttonvm:active,
+.buttonvm:active, .gallerybutton:active
 .buttonvm.active {
   background-color: #fff;
   color: #000;
   font-weight: 300;
   text-shadow: -1px 1px #193047;
+}
+
+.gallerybutton{
+	position: relative;
+	height: 10%;
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
 }
 
 .homebutton{
@@ -101,13 +108,13 @@ hr {
     {
       .footer-div
       {
-      	border-top: 5px;
+      	border-top: 3px;
       	border-top-style: solid;
       	border-top-color: #000;
       	border-bottom: 5px;
       	border-bottom-style: solid;
       	border-bottom-color: #000;
-		
+		margin-top: 10px;
 		position: relative;
 		z-index: 100;
 		text-align: center;
@@ -118,9 +125,9 @@ hr {
 		
 	}
 	.footer-icons-div{
-		width: 60%;
-		margin-right: 20%;
-		margin-left: 20%;
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
 	}
 	.footer-h1{
 		font-weight: 400;
@@ -128,22 +135,29 @@ hr {
 	}
 	.footer-icons {
 		height: 50px;
-		width: 50px;
-		padding-left: 10px;
-		padding-right: 10px;
+		width: 15%;
+		padding-left: 2.5%;
+		padding-right: 2.5%;
 		padding-top: 2px;
 		padding-bottom: 2px;
 		position: relative;
 		float: middle;
 
 	}
+	.gallerybutton{
+	position: relative;
+	height: 10%;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+}
 }
 	@media only screen 
   and (min-device-width : 998px) 
     {
       .footer-div
       {
-      	border-top: 5px;
+      	border-top: 3px;
       	border-top-style: solid;
       	border-top-color: #000;
 		border-bottom: 5px;
