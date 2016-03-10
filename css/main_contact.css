@@ -46,13 +46,6 @@
 }
 
 
-.bgimage {
-	width: 100%;
-	max-height: 100%;
-	height: 80%;
-	z-index: -100;
-	position: absolute;
-}
 
 
 	.contact-donate, .contact-subhead
@@ -81,6 +74,7 @@
 		height: 50%;
 		margin-left: 10%;
 		margin-right: 10%;
+		max-height: 500px;
 	}
 	.contact-image{
 		width: 100%;
@@ -96,6 +90,7 @@
 		float: left;
 		position: relative;
 		height: 100%;
+		max-height: 500px;
 	}
 	p {
 		font-family:'Lato';
