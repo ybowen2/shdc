@@ -18,8 +18,7 @@
  	position:fixed;
 	z-index: 200;
 	
-	/*vertical-align: middle;*/
-	/*text-align: center;*/
+
 
 
 
@@ -27,7 +26,7 @@
 
 #home_title_mobile, #home_title_desktop{
 	
-	/*font-size: 2.2em;*/
+	
 	font-weight: bold;
 	margin:2pt 2pt 2pt 2pt;
 	width: 100%;
@@ -82,7 +81,7 @@
 
 }
 
-h1, h2{
+.about_content h1, .about_content h2{
 	border-top-color: #191919;
     border-bottom-color: #191919;
     border-top-width: 1px;

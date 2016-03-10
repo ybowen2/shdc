@@ -9,11 +9,10 @@
             border-width: 4px;
             padding: 10px;
         }
-    	h1 {
+    	.about_content h1 {
     		font-size: 2.5em;
             color: #000;
             text-align: center;
-            font-weight: bold;
             text-transform: uppercase;
     	}
     	h2{

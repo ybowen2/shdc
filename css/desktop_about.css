@@ -15,7 +15,7 @@
     		bottom: 2px;
 
     	}
-    	h1 {
+    	.about_content h1 {
             font-size: 3.3em;
             color: #000;
             text-align: center;
@@ -35,8 +35,7 @@
             
         }
         p{
-            /*font-size: 1.5em;
-            font-weight: lighter;*/
+            
             color: #191919;
             padding-left:  10%;
             padding-right: 10%;
