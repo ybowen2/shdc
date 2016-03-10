@@ -8,8 +8,17 @@
     	h1 {
     		font-size: 2.2em;
     	}
+        .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      overflow: hidden;
+      height:100%;
+      padding-top: 70px;
+    margin-bottom: 0px;
+   
+}
     	.homeaction{
-    		bottom: 5%;
+    		bottom: 0px;
     	}
 
     	#home_title_desktop{
