@@ -40,9 +40,8 @@
 
 .homeaction{
 	width: 30%;
-	height: 8%;
+	height: 10%;
 	position: relative;
-	z-index: 200;
 	left: 35%;
 }
 
@@ -50,7 +49,6 @@
 
 .bgimage {
 	width: 100%;
-	z-index: -100;
 	position: absolute;
 }
 
