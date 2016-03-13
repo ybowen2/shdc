@@ -134,7 +134,7 @@ font-family: 'Roboto Condensed';
 		font-size: 1em;
 	}
 	.footer-icons {
-		height: 50px;
+		height: 40px;
 		width: 15%;
 		padding-left: 2.5%;
 		padding-right: 2.5%;
@@ -147,9 +147,9 @@ font-family: 'Roboto Condensed';
 	.gallerybutton{
 	position: relative;
 	height: 10%;
-	width: 40%;
-	margin-left: 30%;
-	margin-right: 30%;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 }
 	@media only screen 
